@@ -236,26 +236,22 @@ img {
 .footer-social-svg {
     fill: #F4F4FD;
 }
-/*
-.footer-social-list:hover,
-.footer-social-list:focus {
-    background-color: #31d0aa;
-}
 
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
 }
-*/
 
-
+/*
+.footer-social-list:hover,
+.footer-social-list:focus {
+    background-color: #31d0aa;
+}
 .footer-social-list:hover .footer-social-link,
 .footer-social-list:focus .footer-social-link {
     background-color: #31d0aa;
 }
-
-
-
+*/
 
 /* ------------Section1------------ */
 
@@ -484,11 +480,12 @@ img {
     background-color: var(--primary-accent-background);
 }
 
+/*
 .social-media-list:hover .social-media-link,
 .social-media-list:focus .social-media-link {
     background-color: var(--primary-accent-background);
 }
-
+*/
 
 /* ------------Section5------------ */
 
@@ -544,12 +541,13 @@ img {
     border-color: var(--primary-accent-color);
 }
 
+/*
 .customer-item:hover .customers-link,
 .customer-item:focus .customers-link {
     color: var(--primary-accent-color);
     border-color: var(--primary-accent-color);
 }
-
+*/
 
 /* ----------------Portfolio---------------*/
 
