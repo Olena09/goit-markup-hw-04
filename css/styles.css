@@ -236,7 +236,8 @@ img {
     fill: #F4F4FD;
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: #31d0aa;
 }
 .footer-social-link:focus {
@@ -469,7 +470,7 @@ img {
     background-color: var(--primary-accent-background);
 }
 .social-media-link:focus {
-    background-color: var(--primary-accent-background);
+    background-color: #404bbf;
 }
 
 
@@ -526,8 +527,8 @@ img {
     border-color: var(--primary-accent-color);
 }
 .customers-link:focus {
-    color: var(--primary-accent-color);
-    border-color: var(--primary-accent-color);
+    color: #404bbf;
+    border-color: #404bbf;
 }
 
 /* ----------------Portfolio---------------*/
