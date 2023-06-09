@@ -240,9 +240,12 @@ img {
 .footer-social-link:focus {
     background-color: #31d0aa;
 }
-.footer-social-link:focus {
+
+.footer-social-list:hover .footer-social-link,
+.footer-social-list:focus .footer-social-link {
     background-color: #31d0aa;
 }
+
 
 /* ------------Section1------------ */
 
@@ -466,11 +469,14 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-link:hover {
+.social-media-link:hover,
+.social-media-link:focus {
     background-color: var(--primary-accent-background);
 }
-.social-media-link:focus {
-    background-color: #404bbf;
+
+.social-media-list:hover .social-media-link,
+.social-media-list:focus .social-media-link {
+    background-color: var(--primary-accent-background);
 }
 
 
@@ -522,14 +528,18 @@ img {
     fill: currentColor;
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
     color: var(--primary-accent-color);
     border-color: var(--primary-accent-color);
 }
-.customers-link:focus {
-    color: #404bbf;
-    border-color: #404bbf;
+
+.customer-item:hover .customers-link,
+.customer-item:focus .customers-link {
+    color: var(--primary-accent-color);
+    border-color: var(--primary-accent-color);
 }
+
 
 /* ----------------Portfolio---------------*/
 
