@@ -236,6 +236,11 @@ img {
     fill: #F4F4FD;
 }
 
+.footer-social-list:hover,
+.footer-social-list:focus {
+    background-color: #31d0aa;
+}
+
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
